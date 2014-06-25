@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "OnlyViewController.h"
 
 @implementation AppDelegate
 
@@ -14,6 +15,11 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    // Set Root View Controller
+    OnlyViewController *vc = [[OnlyViewController alloc] init];
+    self.window.rootViewController = vc;
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

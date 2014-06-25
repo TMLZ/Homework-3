@@ -19,6 +19,8 @@
 		A28262A1195944C700287D44 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2826289195944C700287D44 /* UIKit.framework */; };
 		A28262A9195944C700287D44 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A28262A7195944C700287D44 /* InfoPlist.strings */; };
 		A28262AB195944C700287D44 /* Paper5Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A28262AA195944C700287D44 /* Paper5Tests.m */; };
+		A28262B8195944DD00287D44 /* OnlyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A28262B6195944DD00287D44 /* OnlyViewController.m */; };
+		A28262B9195944DD00287D44 /* OnlyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A28262B7195944DD00287D44 /* OnlyViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		A28262A6195944C700287D44 /* Paper5Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Paper5Tests-Info.plist"; sourceTree = "<group>"; };
 		A28262A8195944C700287D44 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A28262AA195944C700287D44 /* Paper5Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Paper5Tests.m; sourceTree = "<group>"; };
+		A28262B5195944DD00287D44 /* OnlyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnlyViewController.h; sourceTree = "<group>"; };
+		A28262B6195944DD00287D44 /* OnlyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnlyViewController.m; sourceTree = "<group>"; };
+		A28262B7195944DD00287D44 /* OnlyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OnlyViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +112,7 @@
 		A282628B195944C700287D44 /* Paper5 */ = {
 			isa = PBXGroup;
 			children = (
+				A28262B4195944CF00287D44 /* ViewControllers */,
 				A2826294195944C700287D44 /* AppDelegate.h */,
 				A2826295195944C700287D44 /* AppDelegate.m */,
 				A2826297195944C700287D44 /* Images.xcassets */,
@@ -142,6 +148,16 @@
 				A28262A7195944C700287D44 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A28262B4195944CF00287D44 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A28262B5195944DD00287D44 /* OnlyViewController.h */,
+				A28262B6195944DD00287D44 /* OnlyViewController.m */,
+				A28262B7195944DD00287D44 /* OnlyViewController.xib */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A28262B9195944DD00287D44 /* OnlyViewController.xib in Resources */,
 				A2826290195944C700287D44 /* InfoPlist.strings in Resources */,
 				A2826298195944C700287D44 /* Images.xcassets in Resources */,
 			);
@@ -240,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2826296195944C700287D44 /* AppDelegate.m in Sources */,
+				A28262B8195944DD00287D44 /* OnlyViewController.m in Sources */,
 				A2826292195944C700287D44 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
